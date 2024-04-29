@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: #F27BBD;
+
+}
+
+ .main{
+    background-color: #874CCC;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 12px;
+    box-shadow: 6px -3px 29px whitesmoke;
+    border-radius: 10px;
+ }

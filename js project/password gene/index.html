@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Gen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#10439F">
+
+    <h2>hallo i m a block qoute</h2>
+
+<div class="container">
+      <h2 class="heading">Password Generator</h2>
+      <div class="display-box">
+        <h2 class="display-password">Password</h2>
+        <div class="copy-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M360-240q-33 0-56.5-23.5T280-320v-480q0-33 23.5-56.5T360-880h360q33 0 56.5 23.5T800-800v480q0 33-23.5 56.5T720-240H360Zm0-80h360v-480H360v480ZM200-80q-33 0-56.5-23.5T120-160v-560h80v560h440v80H200Zm160-240v-480 480Z"/></svg>
+        </div>
+
+
+      </div>
+
+      <form >
+
+        <div class="fields">
+            <label for="numberOfCharacter">Number of character</label>
+            <input type="range" min="8" max="20" value="8" id="numberOfCharacter">
+            <input type="text" readonly  value="8" id="numberOfCharacter">
+        </div>
+        <div class="fields">
+            <label for="upperCaseChar">Include Upper Case Character</label>
+            <input type="checkbox" checked id="upperCaseChar">
+        </div>
+        <div class="fields">
+            <label for="lowerCaseChar">Include Lower Case Character</label>
+            <input type="checkbox"  id="lowerCaseChar">
+        </div>
+        <div class="fields">
+            <label for="specialChar">Include Special Character</label>
+            <input type="checkbox"  id="specialChar">
+        </div>
+        <div class="fields">
+            <label for="numbers">Include Numbers</label>
+            <input type="checkbox"  id="numbers">
+        </div>
+      </form>
+      <button class="generate-pass">Generate Password</button>
+
+
+
+   
+</div>
+
+
+ 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="app.js" defer></script>
+    <!-- <script src="obj.js"></script> -->
+</body>
+</html>

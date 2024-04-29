@@ -1,0 +1,10 @@
+copy to clipboard snippet
+ copy to clipboard ... this is very easy way
+passwordElement.addEventListener("click", () => {
+    navigator.clipboard.writeText(passwordElement.innerText).then(() => {
+        alert("Password copied to clipboard");
+    }).catch((err) => {
+        // console.log(err);
+        alert("Failed to copy password");
+    });
+});
